@@ -1,0 +1,119 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 50px;
+}
+
+@media (max-width: 800px){
+    .main-content{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 801px)and(max-width:1200px){
+    .main-content{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1201px){
+    .main-content{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-thumbnail-section{
+    position: relative;
+}
+
+.video-time{
+    position: absolute;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 3px 5px ;
+    bottom: 20px;
+    right: 5px;
+}
+
+.video-thumbnail{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.video-thumbnail:hover{
+    border-radius: 0;
+    transition: border-radius .2s;
+}
+
+.video-info-section{
+    display: flex;
+}
+
+.channel-picture{
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.video-info{
+    flex: 1;
+}
+
+.video-title{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.video-author,
+.video-stats{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.video-options-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 19px;
+    height: 38px;
+    width: 38px;
+}
+
+.video-options-button-image{
+    width: 17px;
+}
+
+.ad-buttons-section{
+    display: flex;
+    justify-content: space-between;
+}
+.ad-buttons-section button{
+    height: 36px;
+    width: 49%;
+    font-family: roboto;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.watch-button{
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(23, 121, 249);
+    background-color: white;
+}
+.watch-button:hover{
+    background-color: rgb(197, 219, 255);
+}
+
+.act-now-button{
+    border: none;
+    color: rgb(23, 121, 249);
+    background-color: rgb(197, 219, 255);
+}
+.act-now-button:hover{
+    background-color: rgb(226, 226, 226);
+}

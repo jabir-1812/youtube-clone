@@ -1,0 +1,84 @@
+.sidebar{
+    position: fixed;
+    padding: 0px 20px 0px 14px;
+    top: 75px;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    overflow-y: hidden;
+    font-family: roboto;
+    background-color: white;
+    z-index: 10;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+
+.sidebar img{
+    width: 24px;
+    margin-right: 25px;
+    margin-left: 13px;
+    border-radius: 12px;
+}
+
+.sidebar-top-section,
+.sidebar-you-section,
+.sidebar-subscriptions-section,
+.sidebar-explore-section,
+.sidebar-more-from-youtube-section,
+.sidebar-settings-section{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    padding:14px 0px;
+    border-bottom: 1px solid rgb(220,220,220);
+}
+
+.sidebar-rows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.sidebar-rows:hover{
+    background-color: rgb(240,240,240);
+}
+.sidebar-rows:active{
+    background-color: rgb(220,220,220);
+}
+
+.sidebar-section-titles{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    height: 39px;
+}
+
+.sidebar-rows div{
+    width: 115px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sidebar-about-section{
+    margin-bottom: 20px;
+}
+.sidebar-about-section a{
+    font-weight: 500;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+
+.sidebar-about-section p{
+    font-size: 12px;
+    opacity: .5;
+}

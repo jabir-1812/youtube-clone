@@ -1,0 +1,35 @@
+.bottom-header{
+    position: fixed;
+    display: flex;
+    right: 0;
+    left: 260px;
+    top: 60px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: white;
+    z-index: 10;
+}
+
+.bottom-header button{
+    display: fle;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    padding: 0px 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.bottom-header button:hover{
+    background-color: rgb(230, 230, 230);
+    transition: background-color .15s;
+}
+
+.bottom-header button:active{
+    background-color: black;
+    color: white;
+}

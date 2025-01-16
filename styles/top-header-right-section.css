@@ -1,0 +1,89 @@
+.top-header-right-section{
+    display: flex;
+    width: 210px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.create-button{
+    display: flex;
+    height: 38px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.create-button:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.create-button:active{
+    background-color: rgb(200, 200, 200);
+}
+
+.plus-symbol{
+    display: inline-block;
+    font-family: roboto;
+    font-weight: 200;
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+
+.notifications-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+
+.notifications-button:hover{
+    background-color: rgb(230, 230, 230)
+}
+
+.notifications-button:active{
+    background-color: rgb(200, 200, 200);
+}
+
+.notifications-button-image{
+    height: 32px;
+    width: 27px;
+}
+
+.notifications-count{
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(227, 0, 0);
+    border-radius: 10px;
+    padding: 0px 4px;
+    top: 5px;
+    right: -3px;
+
+}
+
+.profile-button{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+}
+
+.profile-button-image{
+    width: 38px;
+    border-radius: 20px;
+}

@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family:roboto;
+    padding: 140px 25px 10px 260px;
+}
+
+button{
+    cursor: pointer;
+}
+
+p{
+    margin: 0;
+}
